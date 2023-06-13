@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" href="CSS/header.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="JS/Redes.js"></script>
+  <link rel="icon" href="IMG/1.svg">
+</head>
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <a href="#" class="enlace">
+      <img class="logo" src="IMG/1.svg" class="logo">
+    </a>
+    <ul class="ham">
+      <li><a class="active" href="index.html">Inicio</a></li>
+      <li><a href="#">colleciones</a></li>
+      <li><a href="Sobre.html">sobre nosotros</a></li>
+      <li><a href="#">contacto</a></li>
+    </ul>
+  </nav>
+  
+
+  <main>  
+    <div class="rectangle">
+      <div class="text">Contacto</div>
+    </div>
+    <div class="linea">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.078689000805!2d-90.03441648902805!3d13.774128086564307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85881de7199287c9%3A0xf28a016b06bb3eb1!2sLuz%20Galindo%2C%20Alta%20Costura!5e0!3m2!1ses-419!2ssv!4v1686677908667!5m2!1ses-419!2ssv" width="600" 
+        height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="form">
+      <form action="">
+          <div class="form-title">
+              <h1>¡ESCRIBENOS!</h1>
+          </div>
+          <div class="rows">
+              <div class="input-group">
+                  <label>Nombres</label>
+                  <input type="text" placeholder="Digite su nombre" name="name" />
+              </div>
+              <div class="input-group">
+                  <label>Apellidos</label>
+                  <input type="text" placeholder="Digite su Apellidos" name="name" />
+              </div>
+          </div>
+          <div class="rows">
+              <div class="input-group">
+                  <label>Teléfono</label>
+                  <input type="text" placeholder="Digite su Teléfono" name="name" />
+              </div>
+              <div class="input-group">
+                  <label>Correo Electronico</label>
+                  <input type="text" placeholder="Digite su correo" name="name" />
+              </div>
+          </div>
+          <div class="s">
+              <div class="input-group">
+                  <label>Asunto</label>
+                  <input type="text" placeholder="Asunto" name="name" />
+              </div>
+          </div>
+          <div class="rows">
+              <div class="input-group">
+                  <label>Mensaje</label>
+                  <input type="text" placeholder="Digite su Comentario" name="name" />
+              </div>
+          </div>
+          <div class="form-footer">
+              <button class="btn-submit">Enviar</button>
+            </div>
+          </form>
+      </form>
+      
+  </div>
+  <br><br><br>
+</main>
+
+<footer>
+  <div class="footer-top-layout">
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-8 col-lg-offset-2">
+          <div class="col-sm-4">
+            <div class="footer-col-item">
+              <h4 class="color">Direccion</h4>
+              <address>
+                Barrio el progreso avenida central <br>
+                y 5a calle poniente local a, 1, Cara Sucia
+              </address>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="footer-col-item">
+              <h4 class="color">Contactos</h4>
+              <div class="item-contact"> <a href="tel:2437-0980"><span class="link-id">P</span>:<span>2437-0980</span></a> 
+                <a href="tel:7035-5031"><span class="link-id">F</span>:<span>7035-5031</span></a> <a href="mailto:Luz-AltaCostura@gmail.com">
+                  <span class="link-id">E</span>:<span>Luz-AltaCostura@gmail.com</span></a> </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="footer-col-item">
+              <h4 class="color">Subcribete</h4>
+              <form class="signUpNewsletter">
+                <input class="gt-email form-control" placeholder="You@youremail.com" type="text">
+                <input class="btn-go" value="Go" type="button">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom-layout">
+    <div>
+      <ul>
+        <i id="iconF" class="fa-brands fa-square-facebook" onclick="redirigirAFacebook()"></i>
+          <i id="iconI" class="fa-brands fa-instagram" onclick="redirigirAInstagram()"></i>
+          <i id="iconW" class="fa-brands fa-whatsapp" onclick="redirigirAWhatsapp()"></i>
+    </ul>
+    </div>
+    <div class="copy">Copyright © 2023 LG Alta Costura. All Rights Reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
