@@ -26,6 +26,7 @@
 }
 .header-card > img:hover {
     box-shadow: 0 0 20px rgb(25, 180, 200);
+    cursor: pointer;
 }
 
 main {
